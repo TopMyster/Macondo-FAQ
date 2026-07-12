@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  width: 100vw;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Inter, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgb(103, 76, 57);
+  background-color: rgb(233, 207, 179);
+  margin: 0;
+}
+
+.content {
+  justify-content: center;
+  padding: 35px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+@font-face {
+  font-family: 'Satoro';
+  src: url('/Satoro.ttf');
+}
+
+.hackclub {
+  width: 80px;
+  margin: 0 15px;
+}
+
+.header h1 {
+  font-family: "Satoro";
+}
+
+.header h2 {
+  margin: 20px 5px;
+  font-size: 15px;
+}
+
+.line {
+  border: none;
+  margin: 10px 0;
+  border-top: 3px solid rgb(103, 76, 57);
+}
+
+.search {
+  margin: 0px 0px 20px;
+}
+
+.search input {
+  font-family: Inter, Arial, sans-serif;
+  border: 3px solid rgb(103, 76, 57);
+  background-color: rgb(250, 238, 225);
+  font-size: 15px;
+  height: 20px;
+  width: 30vw;
+  max-width: 1000px;
+  padding: 10px;
+  outline: none;
+}
+
+.search button {
+  font-family: Inter, Arial, sans-serif;
+  color: rgb(233, 207, 179);
+  font-size: 15px;
+  outline: none;
+  margin-left: px;
+  font-weight: bold;
+  border: 2px solid rgb(103, 76, 57);
+  padding: 12.5px;
+  background-color: rgb(103, 76, 57);
+}
+
+.faq {
+  gap: 10px;
+  padding: 10px 15;
+}
+
+.small-line {
+  border: none;
+  margin: 10px 0;
+  border-top: 1px solid rgba(103, 76, 57, 0.501);
+}
+
+.question-box {
+  padding: 10px;
+  line-height: 2;
+}
+
+.question {
+  margin: 0;
+  font-weight: 800;
+}
+
+.answer {
+  margin: 0;
+  font-weight: 200;
+}
