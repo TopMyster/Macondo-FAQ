@@ -1,22 +1,14 @@
 import { useState } from 'react'
 import Question from './Question.tsx'
+import faq from "./faq.json"
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState("")
   const [currentSearch, setCurrentSearch] = useState("")
-  const FAQ = [
-    {
-      question: "hi",
-      answer: "hola"
-    },
-    {
-      question: "man",
-      answer: "boy"
-    }
-  ]
+  const FAQ = faq
 
   const filteredFAQ = FAQ.filter(faq =>
-    faq.question.toLowerCase().includes(currentSearch)
+    faq.question.toLowerCase().includes(currentSearch.toLowerCase())
   )
 
   return (
