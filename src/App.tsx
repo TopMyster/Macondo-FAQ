@@ -24,7 +24,7 @@ export default function App() {
      <div className="content">
       <div className='header'>
         <a href="https://hackclub.com/" target='_blank'><img src="https://assets.hackclub.com/flag-standalone.svg" className='hackclub'/></a>
-        <h1>Macondo</h1> 
+        <a href='https://macondo.hackclub.com/' target='_blank'><h1>Macondo</h1></a>
         <h2>FAQ</h2>
       </div>
       <div className="search">
