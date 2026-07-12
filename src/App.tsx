@@ -16,7 +16,7 @@ export default function App() {
   ]
 
   const filteredFAQ = FAQ.filter(faq =>
-    faq.question.toLowerCase().includes(searchQuery === "" ? "" :currentSearch.toLowerCase())
+    faq.question.toLowerCase().includes(currentSearch)
   )
 
   return (
@@ -36,7 +36,7 @@ export default function App() {
         {filteredFAQ.map(faq => 
           <Question question={faq.question} answer={faq.answer}/>
         )}
-      </div>    
+      </div>
       <footer>
         <i>This website is not affiliated with Hack Club</i>
       </footer>
