@@ -31,7 +31,18 @@ body {
 
 .hackclub {
   width: 80px;
+  height: 80px;
   margin: 0 15px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  cursor: pointer;
+}
+
+.hackclub img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
 }
 
 .header h1 {
