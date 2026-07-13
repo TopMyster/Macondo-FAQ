@@ -1,10 +1,450 @@
 [
-    {
-      "question": "man",
-      "answer": "boy"
-    },
-    {
-      "question": "hi",
-      "answer": "testings"
-    }
+  {
+    "question": "If it ships from a local merchant, does that mean no extra charges?",
+    "answer": "That's correct, no additional charges apply."
+  },
+  {
+    "question": "My project got rejected for a time-tracking bug. It was supposedly fixed, but now it's permanently rejected for the same thing. Can someone check?",
+    "answer": "Please share the previous help ticket thread and project link so it can be reviewed again."
+  },
+  {
+    "question": "Is this website safe to buy hardware from?",
+    "answer": "Some sites are scams, so stick to trusted vendors like robu.in, robocraze, quartz components, digikey, or mouser. Avoid unfamiliar sites."
+  },
+  {
+    "question": "Is buying from this vendor allowed?",
+    "answer": "It depends. The situation may have changed due to funding platform rules, so it may no longer be allowed even if the site is legit."
+  },
+  {
+    "question": "How long does it take to get the grant after a project is approved?",
+    "answer": "Hardware funding grants generally take about 2 weeks since they go through fraud and other checks first. You don't need to do anything special, just wait."
+  },
+  {
+    "question": "For hardware payouts, does the funding cut into the amount? It says my parts cost a chunk of my logged hours.",
+    "answer": "Yes, the cost of parts is offset against your logged hours, and there can also be deflation affecting the value."
+  },
+  {
+    "question": "Is there any chance the program gets extended past the end date?",
+    "answer": "There's no confirmation of an extension at this time."
+  },
+  {
+    "question": "How many days does an ordered item take to go from pending to fulfillment?",
+    "answer": "Fulfillment generally takes about 2 to 4 weeks depending on the item."
+  },
+  {
+    "question": "Are need-based travel stipends a thing? Covering the full cost would take an insane amount of hours.",
+    "answer": "Please open a ticket so the team can review your specific situation."
+  },
+  {
+    "question": "Are hardware grants vendor-locked, and can I buy something like a Raspberry Pi with them?",
+    "answer": "You can generally use them for such purchases, but buy from trusted vendors."
+  },
+  {
+    "question": "Why is my payout lower than expected compared to my logged hours and grant?",
+    "answer": "This is most likely a glitch, it has happened to others too. Open a ticket so it can be checked."
+  },
+  {
+    "question": "Why was my card frozen after just one transaction?",
+    "answer": "This is standard for grants, likely a fraud prevention measure. Let support know if you need it unfrozen."
+  },
+  {
+    "question": "My project shows a bunch of logged hours but only a fraction shipped, and reshipping gets rejected for 0 logged hours. Why?",
+    "answer": "This is a known bug. Open a ticket with your project link so it can be investigated."
+  },
+  {
+    "question": "My reviewer asked me to attach images of my project. Where do I put them and how do I reach the reviewer?",
+    "answer": "Attach them in your project's journals or repo, and follow up in the original ticket where the reviewer has context."
+  },
+  {
+    "question": "Does the program allow monetization like ads on projects?",
+    "answer": "Please check the FAQ and docs, and open a ticket if it's not covered there."
+  },
+  {
+    "question": "Why was my project rejected? I made it myself with only AI assistance.",
+    "answer": "Open a ticket to request the specific reason for the rejection from your reviewer."
+  },
+  {
+    "question": "How does reimbursement work, and how do I actually get the money after my project is approved?",
+    "answer": "Open a grant on the funding platform and convert it to a reimbursement. You buy the item at full price with your own money, attach the receipt, and get the money back, though it takes some time."
+  },
+  {
+    "question": "Do the grant cards work with regional or international online marketplaces?",
+    "answer": "Open a ticket to confirm compatibility for your specific marketplace."
+  },
+  {
+    "question": "Is there a confirmed hour requirement to qualify for the in-person event?",
+    "answer": "Yes, the requirement is 20 hours."
+  },
+  {
+    "question": "How do I request new items for the shop?",
+    "answer": "There's no dedicated form yet, so post your suggestion in the help channel and the team can add it."
+  },
+  {
+    "question": "Can I move projects over from another program?",
+    "answer": "Yes, as long as they haven't already been submitted or paid out elsewhere."
+  },
+  {
+    "question": "For hardware funding, how does building and journaling work once the parts arrive?",
+    "answer": "Once approved, you get a grant for the parts cost instead of currency. After the parts arrive and you build it, submit an update ship, and you can log troubleshooting and updates in your journals."
+  },
+  {
+    "question": "Can I transfer time I already spent on a project into this?",
+    "answer": "Yes, as long as you can transfer the journals for that time."
+  },
+  {
+    "question": "Is the hardware or keyboard grant stackable? Can I combine it to get something more expensive?",
+    "answer": "Yes, you can use it toward a more expensive item. The base grant is roughly $35 USD."
+  },
+  {
+    "question": "Why does the GitHub OAuth need write access?",
+    "answer": "The tutorial uploads your HTML files into a repo it creates for you and deploys it as a static site via GitHub Pages, which needs write access."
+  },
+  {
+    "question": "Can I submit a project I already submitted to another event?",
+    "answer": "Only if you've kept working on it and haven't been paid out for it, no double dipping. You'd need to ask the other event's organizers to remove it first."
+  },
+  {
+    "question": "What date is the hackathon?",
+    "answer": "It's being aimed for late August, though it may be extended and the exact date isn't decided yet."
+  },
+  {
+    "question": "Can we get consumables like filament through this event?",
+    "answer": "Yes, that's being added to the shop soon."
+  },
+  {
+    "question": "Does time logged before the official start count?",
+    "answer": "No, time logged before the program started doesn't count and can't be recovered."
+  },
+  {
+    "question": "Will there be info about the travel stipend rate?",
+    "answer": "Details are still being planned and will be shared later."
+  },
+  {
+    "question": "How many participants is the in-person event aiming for?",
+    "answer": "There's no hard cap, but the rough target mentioned is around 150 people."
+  },
+  {
+    "question": "Do streaks work across all my projects together, or separately for each one?",
+    "answer": "Streaks are separate for each project, so you need to work at least an hour on each one to keep its streak."
+  },
+  {
+    "question": "How are reviewers picked, and are new reviewers being accepted right now?",
+    "answer": "Reviewers are hand picked, and no new reviewers are needed at the moment."
+  },
+  {
+    "question": "If I learn a new language while building my project, do those hours count?",
+    "answer": "Yes, time spent learning while building the project can count."
+  },
+  {
+    "question": "Streaks are supposed to be protected while in the review queue, so why did I lose a streak freeze?",
+    "answer": "That may be a bug. Share your project link and it can be escalated to the team."
+  },
+  {
+    "question": "If I request items for the shop, do I get any feedback on whether they're added?",
+    "answer": "No, due to the volume of requests there's no feedback. If it's accepted you'll just see it appear in the shop."
+  },
+  {
+    "question": "Can I get funding for prototype parts along the way before the whole design is done?",
+    "answer": "Yes. You can ship it, and if it doesn't work, fix it and ship again as an update to get funding based on the hours spent since the last ship."
+  },
+  {
+    "question": "Is the grant amount based on hours worked or on project level?",
+    "answer": "Level guides the tier, but for choosing it just go with your gut, a reviewer will adjust it during review if it's not right."
+  },
+  {
+    "question": "Do the hours I spend writing journals count toward my logged time?",
+    "answer": "Yes, though a reviewer may reduce logged time if they think a task realistically wouldn't have taken that long."
+  },
+  {
+    "question": "My updated README on GitHub isn't showing on my project page. Why?",
+    "answer": "Confirm the change is actually pushed to your repo. If it's pushed and still not syncing, share your project link so support can look into it."
+  },
+  {
+    "question": "Can I use a screen recorder like OBS instead of the official time-tracking tool?",
+    "answer": "The official tool is preferred and records at a low frame rate so it shouldn't cause lag. If it's causing issues, ask for help troubleshooting rather than switching tools."
+  },
+  {
+    "question": "How do I track time for a project?",
+    "answer": "You can record with the official tool and sync it to Hackatime, or add hours manually in the journal."
+  },
+  {
+    "question": "Can I use Lookout to record instead of the official recorder?",
+    "answer": "No, that recorder isn't supported. Use the supported time tracking tools."
+  },
+  {
+    "question": "My project is stuck in review. What does that mean and how long does it take?",
+    "answer": "It means it's being reviewed and will go through a fraud check shortly. Expect roughly 3 to 5 days."
+  },
+  {
+    "question": "It's been 21 days since I bought Minecraft and it hasn't come. What's going on?",
+    "answer": "Minecraft purchases don't work in some regions, so the card may not go through. A refund is usually the only fix."
+  },
+  {
+    "question": "I just got a domain grant. Where do I upload the receipt?",
+    "answer": "Log into the funding platform (app or website) and you'll find a section to attach the receipt."
+  },
+  {
+    "question": "Is journaling required?",
+    "answer": "It's not required, but it's strongly recommended to prevent your hours from being deflated later."
+  },
+  {
+    "question": "Reviews are taking forever. Why?",
+    "answer": "Reviews are heavily slowed during exam season and should speed up once summer break hits. They follow the queue order."
+  },
+  {
+    "question": "If I buy two of a grant item, does it come as two separate grants?",
+    "answer": "No, if you use the quantity option they merge into a single grant loaded with the combined amount."
+  },
+  {
+    "question": "My ship got rejected. What should I do?",
+    "answer": "Resubmit it with a note addressed to the reviewer explaining the situation."
+  },
+  {
+    "question": "How do I change my name?",
+    "answer": "Change it in Slack; it should sync over on its own, though it may take a little while to update."
+  },
+  {
+    "question": "Can I keep working on a project that already existed before this started?",
+    "answer": "Yes, you can keep working on it, but you can't submit hours or work done before the program began."
+  },
+  {
+    "question": "Where do I attach Lapse links?",
+    "answer": "In your journals."
+  },
+  {
+    "question": "How do I transfer a project from another program?",
+    "answer": "For software, link Hackatime; for hardware, copy all your journals over, mention it in the description, and note you can't submit time already shipped elsewhere."
+  },
+  {
+    "question": "Can I get the parts first and then design the 3D model around them?",
+    "answer": "That's generally not possible. Instead, look up the parts and use the dimensions listed on the merchant's website."
+  },
+  {
+    "question": "The idea generator labeled my project L4, but it looks more like L2. Which do I pick?",
+    "answer": "Pick the level you genuinely think it is rather than trusting the AI. A reviewer will adjust it if it's wrong."
+  },
+  {
+    "question": "Does project tier depend on how polished it is?",
+    "answer": "No, tier depends on the complexity of the project. Polished projects are rewarded with starfruits instead."
+  },
+  {
+    "question": "For a design-only ship, what do I put for the demo URL?",
+    "answer": "The demo URL is optional for a design ship. Leave it blank or paste a turntable render or animation link if you have one."
+  },
+  {
+    "question": "Can two people work on the same project under one Hackatime ID?",
+    "answer": "No, each person should track their own time under their own account."
+  },
+  {
+    "question": "Where do I report a bug?",
+    "answer": "There's no public issue tracker for it. Report bugs in the help channel so the team can be tagged."
+  },
+  {
+    "question": "Is the project open source?",
+    "answer": "No, it's not open source at the moment."
+  },
+  {
+    "question": "My ship got rejected for a missing cart screenshot, but I did add it. What now?",
+    "answer": "Double check the cart screenshot is actually attached, then add it if missing and resubmit."
+  },
+  {
+    "question": "Why did the price of an item like the Pinecil go up?",
+    "answer": "Shop prices shift based on component costs and hacker value, so items can get more expensive over time."
+  },
+  {
+    "question": "Will a USB drive count under the RAM or storage grant?",
+    "answer": "Storage grants are meant for that category, but check the grant description since not every item qualifies."
+  },
+  {
+    "question": "Will the debit card hold dollars or my local currency?",
+    "answer": "The card holds US dollars. If you spend it as USD you won't be charged a conversion fee, but paying in local currency may trigger a conversion charge from the card provider."
+  },
+  {
+    "question": "I did a hardware ship, but I want a 3D printer from the shop. Can I get it?",
+    "answer": "For hardware you first physically build the project with the grant, mark it as built to receive coins, and then you can spend those coins on a 3D printer from the shop."
+  },
+  {
+    "question": "Which shop grant can I use to buy a keyboard?",
+    "answer": "As far as anyone knows there isn't a dedicated keyboard grant right now."
+  },
+  {
+    "question": "An item I want is out of stock in my region. Can I get a grant and buy it elsewhere myself?",
+    "answer": "Open a ticket to ask, since region availability and approved vendors vary."
+  },
+  {
+    "question": "How long do stickers take to arrive?",
+    "answer": "Once they're shipped it's up to the postal service, so delivery time varies by location. Check mail.hackclub.com to track."
+  },
+  {
+    "question": "Can I use the Minecraft grant for Bedrock on the App Store or Play Store?",
+    "answer": "Open a ticket to confirm, as store and platform restrictions can affect which versions the grant covers."
+  },
+  {
+    "question": "For a Slack bot, does it need to be live and what do I put for the demo?",
+    "answer": "Yes, the bot needs to be live, so host it somewhere like a hosting service. For the demo, link a channel where it can be tested or show it in a video."
+  },
+  {
+    "question": "Can I stack multiple laptop grants and get reimbursed for part of a used laptop I buy myself?",
+    "answer": "Open a ticket with the specifics, since reimbursement rules for used or partial purchases need to be confirmed by the team."
+  },
+  {
+    "question": "If I buy a part with the grant and build my project, do I have to return it?",
+    "answer": "No. Once your final built project is approved, everything you built is yours to keep and do whatever you want with."
+  },
+  {
+    "question": "Will I get notified when someone uses my referral, and where do I see my referral count?",
+    "answer": "Your referral count and the gold earned show up in your account, near your referral link."
+  },
+  {
+    "question": "How much do I get for referrals?",
+    "answer": "You earn a small amount of gold per person who joins with your link (roughly 10 gold for 3 friends), and you only get it once they're ID verified."
+  },
+  {
+    "question": "The site is down. Will my streaks still be registered?",
+    "answer": "Streaks are pulled from the time tracking service, so as long as that's up your streaks should be safe even if the main site is down."
+  },
+  {
+    "question": "Can I make changes to a hardware project after it's reviewed but before I get the grant?",
+    "answer": "Open a ticket with your project link to ask, since changes after review may need to be handled case by case."
+  },
+  {
+    "question": "The website is showing an error. Why is it down?",
+    "answer": "One of the servers is down, so parts of the site and the reviewer tools may be temporarily unavailable."
+  },
+  {
+    "question": "Can I write all my journals and ship the project on the same day if I already have tracked time?",
+    "answer": "Yes, you can ship on day one if your time is tracked, but keep each journal entry under about 8 hours and split long sessions into multiple entries."
+  },
+  {
+    "question": "Does non-tracked time count, or only time from the tracking tool?",
+    "answer": "Journaled time counts too, not just automatically tracked time, as long as it's logged properly."
+  },
+  {
+    "question": "How does the payout actually work?",
+    "answer": "Your approved hours convert into fruit, and you then convert that fruit into gold."
+  },
+  {
+    "question": "Should reviewers and supporters have ratings or a merit system?",
+    "answer": "That's a suggestion to raise with the team rather than something that exists now."
+  },
+  {
+    "question": "Can they add more referral rewards beyond gold?",
+    "answer": "That's a feature suggestion to pass along to the organizers; only gold is given right now."
+  },
+  {
+    "question": "I'm doing a project that involves mains voltage and I work with it professionally. Is that allowed?",
+    "answer": "High voltage projects are restricted. You'd generally need to be a certified professional in your country, so open a ticket for review."
+  },
+  {
+    "question": "The time tracker won't record even after trying every option. What should I do?",
+    "answer": "If recording won't work after troubleshooting, fall back to logging your time through journals."
+  },
+  {
+    "question": "How do I put a link in Markdown?",
+    "answer": "Use the format [text](url)."
+  },
+  {
+    "question": "For an L4 project, can I just wrap an existing AI model like ChatGPT or Claude?",
+    "answer": "Wrapping another AI model usually won't meet the complexity bar for L4. You'd likely need to train your own model or add more to it, and pivot if that isn't viable."
+  },
+  {
+    "question": "For a hardware project like a macropad, do parts get shipped to me or do I get a grant?",
+    "answer": "You get a grant and buy the parts yourself with the grant card, and you'll need to make your own bill of materials (you can reuse the same parts list as before)."
+  },
+  {
+    "question": "Does time spent reading docs to learn how to build my project count?",
+    "answer": "Yes, anything genuinely useful for your project counts, including reading docs, but time just watching YouTube tutorials can't be logged."
+  },
+  {
+    "question": "A part only sells in bulk, like 100 LEDs. Should I buy the big pack because it's cheap per unit?",
+    "answer": "Buy based on the cheapest total for the minimum quantity you actually need, not on price per unit for a pack far bigger than the project requires."
+  },
+  {
+    "question": "Do I have to record a timelapse of building my physical project, or can I just journal it?",
+    "answer": "You can just journal it, a timelapse isn't required for the build."
+  },
+  {
+    "question": "For a project with a code component, do I auto-track it or document it separately?",
+    "answer": "Track the code with the time tracking service and link that project on your project page."
+  },
+  {
+    "question": "I shipped but forgot to fix the demo link. Can the reviewer just DM me for the correct one?",
+    "answer": "No, you'll have to remove it from the queue and fix the link yourself before resubmitting."
+  },
+  {
+    "question": "If I can salvage parts from a previous project, is that worth doing?",
+    "answer": "Yes, reusing salvaged parts means you spend less of your funding, which leaves you with more gold."
+  },
+  {
+    "question": "How do I find out if an item can be shipped to my area?",
+    "answer": "You'll be informed about shipment status, so you'll be notified whether it can ship to you."
+  },
+  {
+    "question": "I shipped a finished project and my streak disappeared. How am I supposed to keep working on it?",
+    "answer": "Streaks not freezing after shipping is a known problem. Share your project link so it can be escalated."
+  },
+  {
+    "question": "Do I need to make a mod to get a game like Minecraft from the shop?",
+    "answer": "No, you can just buy it from the shop directly."
+  },
+  {
+    "question": "I transferred my project and lost hours logged before the program started. Can I recover them?",
+    "answer": "No, hours logged before the start date are lost and can't be recovered."
+  },
+  {
+    "question": "Who do I reach out to if I want to volunteer as a reviewer?",
+    "answer": "New reviewers aren't needed right now since some are already being onboarded, so there's nothing to sign up for at the moment."
+  },
+  {
+    "question": "Can I count the time I spent designing the PCB layout?",
+    "answer": "Yes, design work that's genuinely part of building your project can be counted."
+  },
+  {
+    "question": "Is there a limit on how long a single journal entry can be?",
+    "answer": "Keep each entry under about 8 hours; if a session was longer, split it into multiple entries so reviewers don't discount it."
+  },
+  {
+    "question": "Can I buy parts from AliExpress with the grant?",
+    "answer": "Yes, you can, just pick the cheapest legitimate option for the quantity you actually need."
+  },
+  {
+    "question": "Does the grant cover shipping costs on the parts I buy?",
+    "answer": "Compare the total cost including shipping when choosing where to buy, and pick the cheapest overall option."
+  },
+  {
+    "question": "If my L4 project doesn't meet the requirements, what happens?",
+    "answer": "It won't be rejected outright, a reviewer can simply move it down to a lower level like L3."
+  },
+  {
+    "question": "Where should I buy a specific microcontroller like an RP2040 board?",
+    "answer": "Buy from a trusted or official vendor and choose the cheapest listing for the quantity you need."
+  },
+  {
+    "question": "Can I get a spare part just in case my soldering goes wrong?",
+    "answer": "Buy only what your project needs; grabbing extras just in case isn't the intended use of the funding."
+  },
+  {
+    "question": "If I don't have a 3D printer, how do I get printed parts like keycaps?",
+    "answer": "You can use a community printing service to get parts printed if you don't own a printer."
+  },
+  {
+    "question": "Does watching YouTube tutorials count as logged time?",
+    "answer": "No, time spent watching videos or tutorials can't be logged even if they're about your project."
+  },
+  {
+    "question": "Can I still add a project that existed before, as long as I only log new work?",
+    "answer": "Yes, that's allowed. You can continue an existing project as long as you only submit the new work done during the program."
+  },
+  {
+    "question": "How long does the reimbursement take to actually hit my account?",
+    "answer": "It varies and generally takes some time after you attach your receipt, so plan for a wait."
+  },
+  {
+    "question": "Can I buy a game like Minecraft with a grant card if I'm in a region where it's restricted?",
+    "answer": "It may not work in region-locked areas, so you might need a redeem code instead. Open a ticket to sort it out."
+  },
+  {
+    "question": "Should I link my package so people can install it easily?",
+    "answer": "Yes, include an easy install option in your repo, like a package link, binary, or executable, or show it in a video showcase."
+  }
 ]
